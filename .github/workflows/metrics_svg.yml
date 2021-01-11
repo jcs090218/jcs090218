@@ -58,25 +58,6 @@ jobs:
           base: header
           config_timezone: Asia/Taipei
 
-  iso_calender:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: iso_calender.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: jcs090218
-          template: classic
-          base: ""
-          config_timezone: Asia/Taipei
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
   issue_&_pr:
     runs-on: ubuntu-latest
     steps:
@@ -94,3 +75,37 @@ jobs:
           base: ""
           config_timezone: Asia/Taipei
           plugin_followup: yes
+
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metadata.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: jcs090218
+          template: classic
+          base: metadata
+          config_timezone: Asia/Taipei
+
+  repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: repositories.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: jcs090218
+          template: classic
+          base: repositories
+          config_timezone: Asia/Taipei
