@@ -41,24 +41,6 @@ jobs:
           base: activity, community
           config_timezone: Asia/Taipei
 
-  pagespeed:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: pagespeed.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: jcs090218
-          template: classic
-          base: ""
-          config_timezone: Asia/Taipei
-          plugin_pagespeed: yes
-
   iso_calender:
     runs-on: ubuntu-latest
     steps:
