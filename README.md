@@ -4,7 +4,7 @@
   <img align="center" src="./community.svg" />
   <img align="center" src="./repositories.svg" />
 
-  <img align="center" src="./issue_&_pr.svg" />
-  <img align="center" height="150px" src="./iso_calender.svg" />
+  <img align="center" src="./issue_pr.svg" />
+  <img align="center" src="./iso_calender.svg" />
   <img align="right" src="./metadata.svg" />
 </a>
