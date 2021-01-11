@@ -6,5 +6,5 @@
 
   <img align="center" src="./issue_&_pr.svg" />
   <img align="center" height="150px" src="./iso_calender.svg" />
-  <img align="right" src="./meta.svg" />
+  <img align="right" src="./metadata.svg" />
 </a>
