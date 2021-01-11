@@ -28,3 +28,33 @@
   background-color:#ccc;
   border:1px solid black;
 }
+
+.box1 {
+  flex: 1 1 60%;
+  height: 200px;
+  background-color: #ccc;
+  border:1px solid black;
+}
+
+.box2 {
+  flex: 1 1 50%;
+  height:200px;
+  background-color:#ccc;
+  border:1px solid black;
+}
+
+.box3 {
+  flex: 1 1 50%;
+  height: 200px;
+  background-color: #ccc;
+  border:1px solid black;
+}
+
+.box4 {
+  flex: 1 1 30%;
+  height: 200px;
+  background-color: #ccc;
+  border: 1px solid black;
+
+  height: 100px;
+}
