@@ -5,10 +5,10 @@
   <img align="center" width="49%" src="./activity.svg" />
 </a>
 <a href="https://github.com/jcs090218">
-  <img align="center" width="30%" src="./community.svg" />
+  <img align="center" width="49%" src="./community.svg" />
 </a>
 <a href="https://github.com/jcs090218">
-  <img align="center" width="30%" src="./repositories.svg" />
+  <img align="center" width="49%" src="./repositories.svg" />
 </a>
 <a href="https://github.com/jcs090218">
   <img align="center" width="49%" src="./issue_pr.svg" />
