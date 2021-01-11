@@ -7,6 +7,23 @@ on:
   push: {branches: "master"}
 
 jobs:
+  header:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: header.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: jcs090218
+          template: classic
+          base: header
+          config_timezone: Asia/Taipei
+
   acti_comm:
     runs-on: ubuntu-latest
     steps:
@@ -24,12 +41,12 @@ jobs:
           base: activity, community
           config_timezone: Asia/Taipei
 
-  header:
+  pagespeed:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: header.svg
+          filename: pagespeed.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -38,8 +55,9 @@ jobs:
           # Options
           user: jcs090218
           template: classic
-          base: header
+          base: ""
           config_timezone: Asia/Taipei
+          plugin_pagespeed: yes
 
   iso_calender:
     runs-on: ubuntu-latest
