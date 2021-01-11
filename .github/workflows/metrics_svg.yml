@@ -75,7 +75,7 @@ jobs:
           base: ""
           config_timezone: Asia/Taipei
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
   issue_pr_lang:
     runs-on: ubuntu-latest
