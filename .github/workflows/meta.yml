@@ -1,5 +1,5 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: Isometric commit calendar
+name: Metadata
 on:
   # Schedule updates
   schedule: [{cron: "0 * * * *"}]
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: iso_calender.svg
+          filename: meta.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -19,8 +19,5 @@ jobs:
           # Options
           user: jcs090218
           template: classic
-          base: ""
+          base: metadata
           config_timezone: Asia/Taipei
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
