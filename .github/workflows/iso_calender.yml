@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: iso_calender.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
