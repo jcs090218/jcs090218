@@ -77,12 +77,12 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-  issue_pr:
+  issue_pr_lang:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: issue_pr.svg
+          filename: issue_pr_lang.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -94,6 +94,7 @@ jobs:
           base: ""
           config_timezone: Asia/Taipei
           plugin_followup: yes
+          plugin_languages: yes
 
   metadata:
     runs-on: ubuntu-latest
