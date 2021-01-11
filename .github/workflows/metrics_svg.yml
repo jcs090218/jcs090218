@@ -7,12 +7,12 @@ on:
   push: {branches: "master"}
 
 jobs:
-  activity:
+  acti_comm:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: activity.svg
+          filename: acti_comm.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -21,24 +21,7 @@ jobs:
           # Options
           user: jcs090218
           template: classic
-          base: activity
-          config_timezone: Asia/Taipei
-
-  community:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: community.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Options
-          user: jcs090218
-          template: classic
-          base: community
+          base: activity, community
           config_timezone: Asia/Taipei
 
   header:
