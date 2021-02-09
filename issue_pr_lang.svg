@@ -705,17 +705,17 @@
             <rect x="0" y="0" width="220" height="8" fill="white" rx="5"/>
           </mask>
           <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-          <rect mask="url(#issues-bar)" x="0" y="0" width="161.06946526736633" height="8" fill="#d73a49"/>
-          <rect mask="url(#issues-bar)" x="161.06946526736633" y="0" width="58.930534732633674" height="8" fill="#28a745"/>
+          <rect mask="url(#issues-bar)" x="0" y="0" width="161.17941029485257" height="8" fill="#d73a49"/>
+          <rect mask="url(#issues-bar)" x="161.17941029485257" y="0" width="58.82058970514742" height="8" fill="#28a745"/>
         </svg>
         <div class="field horizontal fill-width">
           <div class="field center">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#d73a49" fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 0110.65-5.003.75.75 0 00.959-1.153 8 8 0 102.592 8.33.75.75 0 10-1.444-.407A6.5 6.5 0 011.5 8zM8 12a1 1 0 100-2 1 1 0 000 2zm0-8a.75.75 0 01.75.75v3.5a.75.75 0 11-1.5 0v-3.5A.75.75 0 018 4zm4.78 4.28l3-3a.75.75 0 00-1.06-1.06l-2.47 2.47-.97-.97a.749.749 0 10-1.06 1.06l1.5 1.5a.75.75 0 001.06 0z"/></svg>
-            <span class="no-wrap">1465 Closed</span>
+            <span class="no-wrap">1466 Closed</span>
           </div>
           <div class="field center">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#28a745" fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/></svg>
-            <span class="no-wrap">536 Open</span>
+            <span class="no-wrap">535 Open</span>
           </div>
         </div>
       
@@ -761,21 +761,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="137.43512150946577" height="8" fill="#f34b7d"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="137.43516675690552" height="8" fill="#f34b7d"/>
         
-          <rect mask="url(#languages-bar)" x="137.43512150946577" y="0" width="134.49320799958502" height="8" fill="#178600"/>
+          <rect mask="url(#languages-bar)" x="137.43516675690552" y="0" width="134.49325227846555" height="8" fill="#178600"/>
         
-          <rect mask="url(#languages-bar)" x="271.92832950905074" y="0" width="124.86509682691243" height="8" fill="#555555"/>
+          <rect mask="url(#languages-bar)" x="271.92841903537106" y="0" width="124.86513793595272" height="8" fill="#555555"/>
         
-          <rect mask="url(#languages-bar)" x="396.7934263359632" y="0" width="39.69107118125885" height="8" fill="#c065db"/>
+          <rect mask="url(#languages-bar)" x="396.7935569713238" y="0" width="39.69093280394505" height="8" fill="#c065db"/>
         
-          <rect mask="url(#languages-bar)" x="436.48449751722205" y="0" width="10.0633799565844" height="8" fill="#000080"/>
+          <rect mask="url(#languages-bar)" x="436.48448977526886" y="0" width="10.063383269727163" height="8" fill="#000080"/>
         
-          <rect mask="url(#languages-bar)" x="446.54787747380647" y="0" width="5.39233861211869" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="446.54787304499604" y="0" width="5.392340387425567" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="451.94021608592516" y="0" width="4.828846681595063" height="8" fill="#438eff"/>
+          <rect mask="url(#languages-bar)" x="451.9402134324216" y="0" width="4.8288482713848255" height="8" fill="#438eff"/>
         
-          <rect mask="url(#languages-bar)" x="456.7690627675202" y="0" width="3.230937232479773" height="8" fill="#563d7c"/>
+          <rect mask="url(#languages-bar)" x="456.76906170380647" y="0" width="3.2309382961935906" height="8" fill="#563d7c"/>
         
       </svg>
       
