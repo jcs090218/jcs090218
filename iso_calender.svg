@@ -1961,10 +1961,10 @@
                       <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.1818181818181817 0,2.1818181818181817 z"/>
                       <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.1818181818181817 1.7,3.1818181818181817 z"/>
                     </g>
-                    <g transform="translate(-10.2, 11.954545454545455)">
+                    <g transform="translate(-10.2, 11.90909090909091)">
                       <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                      <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.0454545454545454 0,1.0454545454545454 z"/>
-                      <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.0454545454545454 1.7,2.0454545454545454 z"/>
+                      <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.090909090909091 0,1.0909090909090908 z"/>
+                      <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.0909090909090908 1.7,2.090909090909091 z"/>
                     </g></g></g></svg>
     
   </section>
