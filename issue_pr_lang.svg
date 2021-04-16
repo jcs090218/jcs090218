@@ -1096,8 +1096,8 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="164.00690053662578" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="164.00690053662578" y="0" width="148.22571431040575" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="163.74081093257982" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="163.74081093257982" y="0" width="148.49180391445168" height="8" fill="#555555"/>
                     <rect mask="url(#languages-bar)" x="312.23261484703147" y="0" width="107.51643755239219" height="8" fill="#178600"/>
                     <rect mask="url(#languages-bar)" x="419.7490523994237" y="0" width="12.24312800135142" height="8" fill="#c065db"/>
                     <rect mask="url(#languages-bar)" x="431.9921804007751" y="0" width="11.827934077036243" height="8" fill="#000080"/>
