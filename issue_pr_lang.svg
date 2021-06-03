@@ -1239,8 +1239,8 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="164.00296486377187" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="164.00296486377187" y="0" width="148.72954372973817" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="163.990841513071" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="163.990841513071" y="0" width="148.74166708043902" height="8" fill="#555555"/>
                     <rect mask="url(#languages-bar)" x="312.73250859351003" y="0" width="106.89263302752649" height="8" fill="#178600"/>
                     <rect mask="url(#languages-bar)" x="419.6251416210365" y="0" width="12.322197423632947" height="8" fill="#c065db"/>
                     <rect mask="url(#languages-bar)" x="431.94733904466943" y="0" width="11.846870952934898" height="8" fill="#000080"/>
