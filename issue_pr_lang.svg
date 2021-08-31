@@ -1350,8 +1350,8 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="164.27371318031672" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="164.27371318031672" y="0" width="148.99823508733348" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="164.25438554677459" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="164.25438554677459" y="0" width="149.01756272087562" height="8" fill="#555555"/>
                     <rect mask="url(#languages-bar)" x="313.27194826765015" y="0" width="106.08336791218548" height="8" fill="#178600"/>
                     <rect mask="url(#languages-bar)" x="419.35531617983565" y="0" width="12.543634168843814" height="8" fill="#c065db"/>
                     <rect mask="url(#languages-bar)" x="431.8989503486795" y="0" width="11.867305899833042" height="8" fill="#000080"/>
