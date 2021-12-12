@@ -2407,10 +2407,10 @@
                             </g>
                         </g>
                         <g transform="translate(44.199999999999996, 26)">
-                            <g transform="translate(0, 2.495798319327731)">
+                            <g transform="translate(0, 2.4705882352941178)">
                                 <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,5.504201680672269 0,4.504201680672269 z"/>
-                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,4.504201680672269 1.7,5.504201680672269 z"/>
+                                <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,5.529411764705882 0,4.529411764705882 z"/>
+                                <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,4.529411764705882 1.7,5.529411764705882 z"/>
                             </g>
                         </g>
                     </g>
