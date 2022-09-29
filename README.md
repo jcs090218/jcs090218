@@ -45,4 +45,10 @@
   </a>
 </div>
 
-<div align="center">Information above...</div>
+<br/>
+
+<div align="center">
+  <a href="#">
+  <img width="30%" src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&pause=3000&color=F7F7F7&center=true&width=435&height=25&lines=Information+above..." alt="Typing SVG" />
+  </a>
+</div>
