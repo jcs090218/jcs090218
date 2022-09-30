@@ -52,7 +52,7 @@
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="text/dark.svg">
     <source media="(prefers-color-scheme: dark)" srcset="text/light.svg">
-    <img alt="Information above..." src="">
+    <img width="35%" alt="Information above..." src="">
   </picture>
   </a>
 </div>
