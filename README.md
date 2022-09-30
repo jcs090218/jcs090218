@@ -49,7 +49,10 @@
 
 <div align="center">
   <a href="#">
-  <img width="35%" src="text/dark.svg#gh-light-mode-only" alt="Typing SVG" />
-  <img width="35%" src="text/light.svg#gh-dark-mode-only" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="text/dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="text/light.svg">
+    <img alt="Information above..." src="">
+  </picture>
   </a>
 </div>
