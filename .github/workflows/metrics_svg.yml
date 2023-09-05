@@ -5,6 +5,7 @@ on:
   # Schedule updates
   schedule: [{cron: "0 * * * *"}]
   push: {branches: "master"}
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
