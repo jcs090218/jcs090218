@@ -29,7 +29,7 @@
   <a href="mailto:jcs090218@gmail.com" target="_blank">
     <img alt="Mail" src="https://www.jcs-profile.com/images/icons/gmail.svg" width="5%"/></a>
   &nbsp;•&nbsp;
-  <a href="https://jcs090218.github.io/blog/" target="_blank">
+  <a href="https://www.jcs-profile.com/blog/" target="_blank">
     <img alt="Blog" src="https://www.jcs-profile.com/images/icons/blog.svg" width="5%"/></a>
 </div>
 
