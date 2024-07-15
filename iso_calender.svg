@@ -1002,10 +1002,10 @@
                                 <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.387931034482759 0,1.3879310344827587 z"/>
                                 <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.3879310344827587 1.7,2.387931034482759 z"/>
                             </g>
-                            <g transform="translate(-1.7, 6.844827586206897)">
+                            <g transform="translate(-1.7, 6.870689655172414)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.1551724137931036 0,1.1551724137931034 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1551724137931034 1.7,2.1551724137931036 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.1293103448275863 0,1.1293103448275863 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1293103448275863 1.7,2.1293103448275863 z"/>
                             </g>
                             <g transform="translate(-3.4, 7.974137931034483)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -1034,10 +1034,10 @@
                             </g>
                         </g>
                         <g transform="translate(44.199999999999996, 26)">
-                            <g transform="translate(0, 5.844827586206897)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.1551724137931036 0,1.1551724137931034 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1551724137931034 1.7,2.1551724137931036 z"/>
+                            <g transform="translate(0, 5.818965517241379)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.1810344827586206 0,1.1810344827586208 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1810344827586208 1.7,2.1810344827586206 z"/>
                             </g>
                         </g>
                     </g>
