@@ -1034,10 +1034,10 @@
                             </g>
                         </g>
                         <g transform="translate(44.199999999999996, 26)">
-                            <g transform="translate(0, 5.639484978540772)">
+                            <g transform="translate(0, 5.6137339055794)">
                                 <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.3605150214592276 0,1.3605150214592274 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.3605150214592274 1.7,2.3605150214592276 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.3862660944206007 0,1.386266094420601 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.386266094420601 1.7,2.3862660944206007 z"/>
                             </g>
                         </g>
                     </g>
