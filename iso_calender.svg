@@ -1012,15 +1012,15 @@
                                 <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.1030042918454934 0,1.1030042918454936 z"/>
                                 <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1030042918454936 1.7,2.1030042918454934 z"/>
                             </g>
-                            <g transform="translate(-5.1, 8.665236051502145)">
+                            <g transform="translate(-5.1, 8.690987124463518)">
                                 <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.334763948497854 0,1.3347639484978542 z"/>
-                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.3347639484978542 1.7,2.334763948497854 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.3090128755364807 0,1.3090128755364807 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.3090128755364807 1.7,2.3090128755364807 z"/>
                             </g>
-                            <g transform="translate(-6.8, 9.793991416309012)">
+                            <g transform="translate(-6.8, 9.768240343347639)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.2060085836909873 0,1.206008583690987 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.206008583690987 1.7,2.2060085836909873 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.2317596566523603 0,1.2317596566523605 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.2317596566523605 1.7,2.2317596566523603 z"/>
                             </g>
                         </g>
                     </g>
