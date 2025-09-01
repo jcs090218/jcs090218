@@ -85,7 +85,7 @@ jobs:
           user: ${{ env.user }}
           template: ${{ env.template }}
           base: ""
-          config_timezone: Asia/Taipei
+          config_timezone: ${{ env.config_timezone }}
           plugin_followup: yes
           plugin_languages: yes
 
