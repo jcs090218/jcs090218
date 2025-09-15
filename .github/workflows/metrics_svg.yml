@@ -3,7 +3,8 @@ name: Get all latest stats SVG
 
 on:
   # Schedule updates
-  schedule: [{cron: "0 */2 * * *"}]
+  schedule:
+    - cron:  '0 */2 * * *'
   push: {branches: "master"}
   workflow_dispatch:
 
