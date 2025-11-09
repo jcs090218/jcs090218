@@ -24,9 +24,30 @@ jobs:
 
     - name: Backup files
       run: |
+        mkdir -p ./backup
         cp acti_comm.svg ./backup/acti_comm.svg
         cp header.svg ./backup/header.svg
         cp iso_calender.svg ./backup/iso_calender.svg
         cp issue_pr_lang.svg ./backup/issue_pr_lang.svg
         cp metadata.svg ./backup/metadata.svg
         cp repositories.svg ./backup/repositories.svg
+
+    - name: Set git config
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+    - name: Commit
+      continue-on-error: true
+      run: |
+        git pull
+        git add .
+        git commit -m "Make backup"
+
+    - name: Push backup SVGs
+      continue-on-error: true
+      uses: jcs090218/github-push-action@master
+      with:
+        branch: master
+        rebase: true
+        retry: 3
