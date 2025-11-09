@@ -1,0 +1,32 @@
+name: Recover
+
+on:
+  workflow_run:
+    workflows: ["Metrics SVG"]
+    types:
+      - completed
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PATH_DOC: ${{ github.workspace }}/gh-pages
+
+jobs:
+  publish-doc:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        submodules: true
+
+    - name: Recover files if any
+      run: |
+        ./recover.sh acti_comm.svg
+        ./recover.sh header.svg
+        ./recover.sh iso_calender.svg
+        ./recover.sh issue_pr_lang.svg
+        ./recover.sh metadata.svg
+        ./recover.sh repositories.svg

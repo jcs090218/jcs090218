@@ -1,0 +1,32 @@
+name: Backup
+
+on:
+  # Schedule updates
+  schedule:
+    - cron:  '0 */1 * * *'
+  push: {branches: "master"}
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PATH_DOC: ${{ github.workspace }}/gh-pages
+
+jobs:
+  publish-doc:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        submodules: true
+
+    - name: Backup files
+      run: |
+        cp acti_comm.svg ./backup/acti_comm.svg
+        cp header.svg ./backup/header.svg
+        cp iso_calender.svg ./backup/iso_calender.svg
+        cp issue_pr_lang.svg ./backup/issue_pr_lang.svg
+        cp metadata.svg ./backup/metadata.svg
+        cp repositories.svg ./backup/repositories.svg
