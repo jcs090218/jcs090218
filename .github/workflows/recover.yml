@@ -15,7 +15,7 @@ env:
   PATH_DOC: ${{ github.workspace }}/gh-pages
 
 jobs:
-  publish-doc:
+  main:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v5
