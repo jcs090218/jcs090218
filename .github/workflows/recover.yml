@@ -30,3 +30,23 @@ jobs:
         ./recover.sh issue_pr_lang.svg
         ./recover.sh metadata.svg
         ./recover.sh repositories.svg
+
+    - name: Set git config
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+    - name: Commit
+      continue-on-error: true
+      run: |
+        git pull
+        git add .
+        git commit -m "Recover if error"
+
+    - name: Push recover SVGs
+      continue-on-error: true
+      uses: jcs090218/github-push-action@master
+      with:
+        branch: master
+        rebase: true
+        retry: 3
