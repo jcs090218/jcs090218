@@ -24,6 +24,7 @@ jobs:
 
     - name: Recover files if any
       run: |
+        chmod -R 777 ./recover.sh
         ./recover.sh acti_comm.svg
         ./recover.sh header.svg
         ./recover.sh iso_calender.svg
