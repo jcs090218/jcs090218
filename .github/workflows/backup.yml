@@ -25,12 +25,13 @@ jobs:
     - name: Backup files
       run: |
         mkdir -p ./backup
-        cp acti_comm.svg ./backup/acti_comm.svg
-        cp header.svg ./backup/header.svg
-        cp iso_calender.svg ./backup/iso_calender.svg
-        cp issue_pr_lang.svg ./backup/issue_pr_lang.svg
-        cp metadata.svg ./backup/metadata.svg
-        cp repositories.svg ./backup/repositories.svg
+        chmod -R 777 ./backup.sh
+        ./backup.sh acti_comm.svg
+        ./backup.sh header.svg
+        ./backup.sh iso_calender.svg
+        ./backup.sh issue_pr_lang.svg
+        ./backup.sh metadata.svg
+        ./backup.sh repositories.svg
 
     - name: Set git config
       run: |
