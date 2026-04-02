@@ -2,6 +2,11 @@
   <img align="center" width="49%" src="./header.svg" />
 </a>
 <a href="https://open.spotify.com/">
+  <!--
+  2026/03/09 - Spotify 把它們的 API 的 development mode 給關了, 只提供付費使用!
+
+  See https://developer.spotify.com/blog/2026-02-06-update-on-developer-access-and-platform-security
+  -->
   <!-- <img align="center" width="48%" src="https://novatorem.jcs090218.vercel.app/api/spotify" /> -->
   <img align="center" width="48%" src="./spotify/Canon In D - Paul Hankinson Covers.svg" />
 </a>
