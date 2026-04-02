@@ -3,9 +3,10 @@
 </a>
 <a href="https://open.spotify.com/">
   <!--
-  2026/03/09 - Spotify 把它們的 API 的 development mode 給關了, 只提供付費使用!
+    2026/03/09 - Spotify 把它們的 API 的 development mode 給關了, 只提供付費使用!
+    看 https://developer.spotify.com/blog/2026-02-06-update-on-developer-access-and-platform-security
 
-  See https://developer.spotify.com/blog/2026-02-06-update-on-developer-access-and-platform-security
+    2026/04/02 - 我很幸運地截到 SVG, 所以之後就改用 static 的 SVG.
   -->
   <!-- <img align="center" width="48%" src="https://novatorem.jcs090218.vercel.app/api/spotify" /> -->
   <img align="center" width="48%" src="./spotify/Canon In D - Paul Hankinson Covers.svg" />
