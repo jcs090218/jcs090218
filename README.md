@@ -1,6 +1,5 @@
 <a href="https://github.com/jcs090218">
-  <img align="center" width="49%" src="./header.svg" />
-</a>
+  <img align="center" width="49%" src="./header.svg" /></a>
 <a href="https://open.spotify.com/">
   <!--
     2026/03/09 - Spotify 把它們的 API 的 development mode 給關了, 只提供付費使用!
@@ -9,20 +8,15 @@
     2026/04/02 - 我很幸運地截到 SVG, 所以之後就改用 static 的 SVG.
   -->
   <!-- <img align="center" width="48%" src="https://novatorem.jcs090218.vercel.app/api/spotify" /> -->
-  <img align="center" width="48%" src="./spotify/Canon In D - Paul Hankinson Covers.svg" />
-</a>
+  <img align="center" width="48%" src="./spotify/Canon In D - Paul Hankinson Covers.svg" /></a>
 <a href="https://github.com/jcs090218">
-  <img align="center" width="49%" src="./acti_comm.svg" />
-</a>
+  <img align="center" width="49%" src="./acti_comm.svg" /></a>
 <a href="https://github.com/jcs090218">
-  <img align="center" width="49%" src="./repositories.svg" />
-</a>
+  <img align="center" width="49%" src="./repositories.svg" /></a>
 <a href="https://github.com/jcs090218">
-  <img align="center" width="49%" src="./iso_calender.svg" />
-</a>
+  <img align="center" width="49%" src="./iso_calender.svg" /></a>
 <a href="https://github.com/jcs090218">
-  <img align="center" width="49%" src="./issue_pr_lang.svg" />
-</a>
+  <img align="center" width="49%" src="./issue_pr_lang.svg" /></a>
 
 <br/>
 
