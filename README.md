@@ -8,7 +8,8 @@
     2026/04/02 - 我很幸運地截到 SVG, 所以之後就改用 static 的 SVG.
   -->
   <!-- <img align="center" width="48%" src="https://novatorem.jcs090218.vercel.app/api/spotify" /> -->
-  <img align="center" width="48%" src="./spotify/Canon In D - Paul Hankinson Covers.svg" /></a>
+  <img align="center" width="48%" src="./spotify/Canon In D - Paul Hankinson Covers.svg" />
+</a>
 <a href="https://github.com/jcs090218">
   <img align="center" width="49%" src="./acti_comm.svg" /></a>
 <a href="https://github.com/jcs090218">
